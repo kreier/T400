@@ -22,15 +22,12 @@ void setup(){
 }
 
 void loop(){
-  lcd.setCursor(0, 0);
-  lcd.print("Hello, World!");
-  digitalWrite(16, LOW);
-  delay(500);
-  lcd.clear();
-  lcd.setCursor(0,1);
-  lcd.print("Hello, World!");
-  digitalWrite(16, HIGH);
-  delay(500);
-  lcd.clear(); 
+  for(int i = 0; i < 2; i++){
+    lcd.setCursor(0, 0);
+    lcd.print("Hello, World!");
+    digitalWrite(16, i);
+    delay(500);
+    lcd.clear();
+  }
 }
 ```
