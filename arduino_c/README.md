@@ -23,7 +23,7 @@ void setup(){
 
 void loop(){
   for(int i = 0; i < 2; i++){
-    lcd.setCursor(0, 0);
+    lcd.setCursor(0, i);
     lcd.print("Hello, World!");
     digitalWrite(16, i);
     delay(500);
@@ -31,3 +31,4 @@ void loop(){
   }
 }
 ```
+![motorshield](../pic/motorshield.jpg)
