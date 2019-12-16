@@ -6,7 +6,12 @@ The board uses the pin D1 to D4 to control tle L293DD motor bridge. The I2C is u
 
 ## I2C Display 1602
 
-It works only with D5 and D6. D7 and D8 throw errors when unconnected to a I2C bus and stop the program when connected. Same is for SD2 and SD3 (GPIO9 and GPIO10).
+It works only with D5 and D6. D7 and D8 throw errors when unconnected to a I2C bus and stop the program when connected. Same is for SD2 and SD3 (GPIO9 and GPIO10). Connection is
+
+| PIN | GPIO | I2C |
+|-----|------|-----|
+| D6  | 12   | SDA |
+| D5  | 14   | SCL |
 
 ``` c
 #include <LiquidCrystal_I2C.h>
@@ -14,8 +19,8 @@ It works only with D5 and D6. D7 and D8 throw errors when unconnected to a I2C b
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-void setup(){
-  Wire.begin(12,14); // I2C on D6 and D5 since D1 and D2 are connected to the motor driver
+void setup(){        // usually I2C on D1 and D2, but used for motor driver
+  Wire.begin(12,14); // I2C on D6/GPIO12/SDA and D5/GPIO14/SCL
   lcd.init();
   lcd.backlight();
   pinMode(16, OUTPUT);
