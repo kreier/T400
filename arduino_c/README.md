@@ -37,3 +37,23 @@ void loop(){
 }
 ```
 ![motorshield](../pic/motorshield.jpg)
+
+## Remote controlled robot
+
+A great project has been done by [Vincent Lacour](https://github.com/lacour-vincent) to create a remote controlled robot car with an ESP8266. He wrote an app to control the robot using WiFi, let's later update the code to directly control the robot in a browser.
+
+Link to his project (November 2019):
+
+- Code https://github.com/lacour-vincent/wifi-car-esp8266
+- Android app: https://play.google.com/store/apps/details?id=com.lacour.vincent.wificaresp8266
+- iOS app: not yet there
+
+
+Other notable projects:
+
+With Remoteme: https://www.hackster.io/WolfxPac/wifi-controlled-robot-using-esp8266-8756b7 2019/01/01
+
+With Blynk: https://www.instructables.com/id/Wifi-Controlled-Robot-Car-Using-Nodemcu-and-Blynk/ 2019/07/05
+
+Simple https://www.hackster.io/alankrantas/simple-nodemcu-wifi-controlled-car-esp8266-c5491e 2019/08/19
+
