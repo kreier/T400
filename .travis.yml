@@ -5,10 +5,9 @@ python:
 cache: 
   pip: true
 install:
-  - pip install codecov
+  - pip install -r requirements.txt
 script:
   - python esp8266/*.py
-  - coverage run esp8266/prime1000.mpy
 
 after_success:
   - codecov
