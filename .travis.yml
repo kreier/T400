@@ -1,13 +1,14 @@
-os: linux
+dist: xenial
 language: python
 python:
   - "3.6"
-cache: pip
+cache: 
+  pip: true
 install:
   - pip install codecov
 script:
-  - python esp8266/prime1000.mpy
-  - coverage run tests.py
+  - python esp8266/*.py
+  - coverage run esp8266/prime1000.mpy
 
 after_success:
   - codecov
