@@ -1,5 +1,5 @@
 dist: xenial
-language: python
+language: micropython
 python:
   - "3.4"
 cache: 
