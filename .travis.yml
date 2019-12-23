@@ -7,7 +7,9 @@ cache:
 install:
   - pip install -r requirements.txt
 script:
-  - python3 python/*.py
+  - python3 python/helloworld.py
+  - python3 python/prime1000.py
+  - python3 python/mandelbrot.py
 
 after_success:
-  - codecov
+#  - codecov
