@@ -10,8 +10,7 @@ Robot car with WiFi, programmed and controlled by MicroPython.
 
 This car was build during ASA session 3 in 2019/2020 at the AISVN. Here are some pictures of the finished products:
 
-<img src="pic/t400.jpg" width="48%">
-<img src="pic/t400plus.jpg" width="48%">
+<img src="pic/t400.jpg" width="48%"><img src="pic/t400plus.jpg" width="48%">
 
 ### Key features
 
