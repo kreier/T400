@@ -7,7 +7,7 @@ cache:
 install:
   - pip install -r requirements.txt
 script:
-  - python python/*.py
+  - python3 python/*.py
 
 after_success:
   - codecov
