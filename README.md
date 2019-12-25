@@ -4,7 +4,9 @@
 [![MIT license](https://img.shields.io/github/license/kreier/T400?color=brightgreen)](http://opensource.org/licenses/MIT)
 [![HitCount](http://hits.dwyl.io/kreier/T400.svg)](http://hits.dwyl.io/kreier/T400)
 
-Robot car with WiFi, programmed and controlled by MicroPython.
+Robot car with WiFi, programmed and controlled by MicroPython. The OLED screen gives information about status, connection and WiFi network to connect to (AP mode).
+
+![T400 lite](pic/T400lite.jpg)
 
 ## Project
 
