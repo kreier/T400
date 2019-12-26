@@ -10,24 +10,24 @@ Robot car with WiFi, programmed and controlled by MicroPython. The OLED screen g
 
 ## Project
 
-This car was build during ASA session 3 in 2019/2020 at the AISVN. Here are some pictures of the finished products:
+This car was build during ASA session III in 2019/2020 at the AISVN. In 11 weeks from February 24th to May 22nd we successfully created 8 robot cars. Here are some pictures of the finished products:
 
 <img src="pic/t400.jpg" width="48%"><img src="pic/t400plus.jpg" width="48%">
 
 ### Key features
 
-Over the time of 3 months the students will reach different stages of their project, but here are some key featuresL
+Over the time of 3 months the students will reach different stages of their project, but here are some key features:
 
-- Central unit is a ESP8266 with 32 kByte RAM and 4 GByte Flash memory, running at 160 MHz
+- Central unit is a ESP8266 with 32 kByte RAM and 4 GByte Flash memory, running at 160 MHz.
 - The programming language is [MicroPython](https://en.wikipedia.org/wiki/MicroPython) with an interactive prompt [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).
-- The control unit is powered by a standard 5V powerbank
-- The drive unit is a caterpillar base with two 12V motors
-- The robot car can be controlled via WiFi
-- An OLED display 128x64 (ssd1306) gives status updates
+- The control unit is powered by a standard 5V powerbank.
+- The drive unit is a caterpillar base with two 12V motors.
+- The robot car can be controlled via WiFi.
+- An OLED display 128x64 (ssd1306) gives status updates.
 
 ## Materials
 
-The materials used for this project were ordered by [ICDAYROI](https://icdayroi.com/), [THEGIOIIC](https://thegioiic.com/) and [Lazada](https://www.lazada.vn/#). Here is a list of materials:
+The materials used for this project were ordered at [IC ĐÂY RỒI](https://icdayroi.com/), [thegioiic.com](https://thegioiic.com/) and [lazada.vn](https://www.lazada.vn/#). Here is a list of materials:
 
 <table>
 <thead><tr><th>nr</th>
@@ -59,7 +59,7 @@ The materials used for this project were ordered by [ICDAYROI](https://icdayroi.
 <td align="center">1</td>
 <td align="right">120.000₫</td>
 <td align="right">120.000₫</td>
-<td><a href="https://icdayroi.com/arduino-motor-shield-l298">link icdayroi.com</a></td>
+<td><a href="https://icdayroi.com/arduino-motor-shield-l298">link</a></td>
 </tr>
 <tr>
 <td align="right">4</td>
