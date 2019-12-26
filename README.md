@@ -41,128 +41,128 @@ The materials used for this project were ordered by [ICDAYROI](https://icdayroi.
 <td align="right">1</td>
 <td>Arduino Leonardo</td>
 <td align="center">1</td>
-<td align="right">125.000 VND</td>
-<td align="right">125.000 VND</td>
-<td><a href="https://icdayroi.com/arduino-leonardo-r3">link icdayroi.com</a></td>
+<td align="right">125.000₫</td>
+<td align="right">125.000₫</td>
+<td><a href="https://icdayroi.com/arduino-leonardo-r3">link</a></td>
 </tr>
 <tr>
 <td align="right">2</td>
 <td>Robot base 4 wheels</td>
 <td align="center">1</td>
-<td align="right">140.000 VND</td>
-<td align="right">140.000 VND</td>
-<td><a href="https://icdayroi.com/khung-xe-robot-4-banh">link icdayroi.com</a></td>
+<td align="right">140.000₫</td>
+<td align="right">140.000₫</td>
+<td><a href="https://icdayroi.com/khung-xe-robot-4-banh">link</a></td>
 </tr>
 <tr>
 <td align="right">3</td>
 <td>Motor Shield L298</td>
 <td align="center">1</td>
-<td align="right">120.000 VND</td>
-<td align="right">120.000 VND</td>
+<td align="right">120.000₫</td>
+<td align="right">120.000₫</td>
 <td><a href="https://icdayroi.com/arduino-motor-shield-l298">link icdayroi.com</a></td>
 </tr>
 <tr>
 <td align="right">4</td>
 <td>Bluetooth AT-09</td>
 <td align="center">1</td>
-<td align="right">75.000 VND</td>
-<td align="right">75.000 VND</td>
-<td><a href="https://icdayroi.com/mach-thu-phat-bluetooth-4-0-uart-cc2541-at-09">link icdayroi.com</a></td>
+<td align="right">75.000₫</td>
+<td align="right">75.000₫</td>
+<td><a href="https://icdayroi.com/mach-thu-phat-bluetooth-4-0-uart-cc2541-at-09">link</a></td>
 </tr>
 <tr>
 <td align="right">5</td>
 <td>Battery 18650 3.7V</td>
 <td align="center">2</td>
-<td align="right">35.000 VND</td>
-<td align="right">70.000 VND</td>
-<td><a href="https://icdayroi.com/pin-cell-18650-4200mah-3-7v">link icdayroi.com</a></td>
+<td align="right">35.000₫</td>
+<td align="right">70.000₫</td>
+<td><a href="https://icdayroi.com/pin-cell-18650-4200mah-3-7v">link</a></td>
 </tr>
 <tr>
 <td align="right">6</td>
 <td>Battery holder 2C 18650</td>
 <td align="center">1</td>
-<td align="right">7.000 VND</td>
-<td align="right">7.000 VND</td>
-<td><a href="https://icdayroi.com/hop-de-pin-18650-loai-2-cell">link icdayroi.com</a></td>
+<td align="right">7.000₫</td>
+<td align="right">7.000₫</td>
+<td><a href="https://icdayroi.com/hop-de-pin-18650-loai-2-cell">link</a></td>
 </tr>
 <tr>
 <td align="right">7</td>
 <td>Power switch MTS 102</td>
 <td align="center">1</td>
-<td align="right">4.000 VND</td>
-<td align="right">4.000 VND</td>
-<td><a href="https://icdayroi.com/cong-tac-mts-102">link icdayroi.com</a></td>
+<td align="right">4.000₫</td>
+<td align="right">4.000₫</td>
+<td><a href="https://icdayroi.com/cong-tac-mts-102">link</a></td>
 </tr>
 <tr>
 <td align="right">8</td>
 <td>Battery voltage display</td>
 <td align="center">1</td>
-<td align="right">22.000 VND</td>
-<td align="right">22.000 VND</td>
-<td><a href="https://icdayroi.com/dong-ho-do-von-volt-3-5-30v">link icdayroi.com</a></td>
+<td align="right">22.000₫</td>
+<td align="right">22.000₫</td>
+<td><a href="https://icdayroi.com/dong-ho-do-von-volt-3-5-30v">link</a></td>
 </tr>
 <tr>
 <td align="right">9</td>
 <td>Servo SG90</td>
 <td align="center">5</td>
-<td align="right">29.000 VND</td>
-<td align="right">145.000 VND</td>
-<td><a href="https://icdayroi.com/servo-sg90">link icdayroi.com</a></td>
+<td align="right">29.000₫</td>
+<td align="right">145.000₫</td>
+<td><a href="https://icdayroi.com/servo-sg90">link</a></td>
 </tr>
 <tr>
 <td align="right">10</td>
 <td>Ultrasonic module HC-SR04</td>
 <td align="center">1</td>
-<td align="right">20.000 VND</td>
-<td align="right">20.000 VND</td>
-<td><a href="https://icdayroi.com/cam-bien-sieu-am-hc-sr04">link icdayroi.com</a></td>
+<td align="right">20.000₫</td>
+<td align="right">20.000₫</td>
+<td><a href="https://icdayroi.com/cam-bien-sieu-am-hc-sr04">link</a></td>
 </tr>
 <tr>
 <td align="right">11</td>
 <td>Robot 4DOF kit</td>
 <td align="center">1</td>
-<td align="right">246.000 VND</td>
-<td align="right">246.000 VND</td>
-<td><a href="https://www.lazada.vn/products/4-dof-acrylic-chua-lap-rap-diy-canh-tay-robot-diy-bo-cho-arduino-may-lam-ho-tro-hoc-tap-sg90-servo-i267650656-s391094259.html?spm=a2o4n.searchlist.list.3.1b121f13xg7z7G&amp;search=1">link lazada.vn</a></td>
+<td align="right">246.000₫</td>
+<td align="right">246.000₫</td>
+<td><a href="https://www.lazada.vn/products/4-dof-acrylic-chua-lap-rap-diy-canh-tay-robot-diy-bo-cho-arduino-may-lam-ho-tro-hoc-tap-sg90-servo-i267650656-s391094259.html">link</a></td>
 </tr>
 <tr>
 <td align="right">12</td>
 <td>Wires DuPont MF and FF</td>
 <td align="center">20</td>
-<td align="right">300 VND</td>
-<td align="right">6.000 VND</td>
-<td><a href="https://thegioiic.com/products/day-be-cai-cai-dai-15cm">link thegioiic.com</a></td>
+<td align="right">300₫</td>
+<td align="right">6.000₫</td>
+<td><a href="https://thegioiic.com/products/day-be-cai-cai-dai-15cm">link</a></td>
 </tr>
 <tr>
 <td align="right">13</td>
 <td>Voltmeter for Battery</td>
 <td align="center">1</td>
-<td align="right">21.000 VND</td>
-<td align="right">21.000 VND</td>
-<td><a href="https://thegioiic.com/products/dong-ho-do-ap-dc-2-5-30vdc">link thegioiic.com</a></td>
+<td align="right">21.000₫</td>
+<td align="right">21.000₫</td>
+<td><a href="https://thegioiic.com/products/dong-ho-do-ap-dc-2-5-30vdc">link</a></td>
 </tr>
 <tr>
 <td align="right">14</td>
 <td>Display 1602 3.3V white on blue</td>
 <td align="center">1</td>
-<td align="right">32.000 VND</td>
-<td align="right">32.000 VND</td>
-<td><a href="https://thegioiic.com/products/lcd-1602-nen-xanh-duong-chu-trang-3-3v">link thegioiic.com</a></td>
+<td align="right">32.000₫</td>
+<td align="right">32.000₫</td>
+<td><a href="https://thegioiic.com/products/lcd-1602-nen-xanh-duong-chu-trang-3-3v">link</a></td>
 </tr>
 <tr>
 <td align="right">15</td>
 <td>I2C serial to parallel adapter</td>
 <td align="center">1</td>
-<td align="right">13.500 VND</td>
-<td align="right">13.500 VND</td>
-<td><a href="https://thegioiic.com/products/mach-giao-tiep-lcd-ky-tu-sang-i2c">link thegioiic.com</a></td>
+<td align="right">13.500₫</td>
+<td align="right">13.500₫</td>
+<td><a href="https://thegioiic.com/products/mach-giao-tiep-lcd-ky-tu-sang-i2c">link</a></td>
 </tr>
 <tr>
 <td align="right"></td>
 <td> </td>
 <td align="center"></td>
 <td> </td>
-<td align="right">1.046.500 VND</td>
+<td align="right">1.046.500₫</td>
 <td> </td>
 </tr>
 </tbody></table>
