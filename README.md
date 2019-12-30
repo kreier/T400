@@ -29,6 +29,24 @@ Over the time of 3 months the students will reach different stages of their proj
 
 The materials used for this project were ordered at [IC ĐÂY RỒI](https://icdayroi.com/), [thegioiic.com](https://thegioiic.com/) and [lazada.vn](https://www.lazada.vn/#). Here is a list of materials:
 
+| Nr | Name        | Amount | Unit Price |   Sum  |    Supplier    |
+|:--:|-------------|:------:|:----------:|:------:|:--------------:|
+| 1 |ESP8266 NodeMCU | 1 | 83000 VND| 83000 VND| [link thegioiic](https://thegioiic.com/products/lua-esp8266-cp2102-nodemcu-wifi-module) |
+| 2 |Motor Shield L293D | 1 | 30000 VND| 30000 VND| [link thegioiic](https://thegioiic.com/products/esp12e-lua-l293d-de-ra-chan-wifi-esp8266-nodemcu) |
+| 3 |OLED display 126x64 I2C | 1 | 79000 VND| 79000 VND| [link thegioiic](https://thegioiic.com/products/lcd-oled-0-96inch-128x64-iic-4pin-chu-trang) |
+| 4 |Wires DuPont MF and FF | 20 | 300 VND| 6000 VND| [link thegioiic](https://thegioiic.com/products/day-be-cai-cai-dai-15cm) |
+| 5 |Robot caterpillar 12V unit | 1 | 483000 VND| 483000 VND| [link lazada.vn](https://www.lazada.vn/products/smart-tank-car-chassis-tracked-caterpillar-crawler-robot-platform-with-dual-dc-12v-motor-for-diy-for-arduino-t101-ptp101-i402162026-s693860633.html?spm=a2o4n.searchlist.list.162.24b0381feoC1Mg&search=1) |
+| 6 |Powerbank 10000 mAh 2 USB | 1 | 249000 VND| 249000 VND| [link nguyenkim](https://www.nguyenkim.com/pin-sac-du-phong-mili-power-shine-ii-hb-m90bk.html) |
+| 7 |DC step-up converter 5V 12V | 1 | 23000 VND| 23000 VND| [link thegioiic](https://thegioiic.com/products/xl6009-mach-tang-ap-4a) |
+| 8 |Robot 4DOF kit | 1 | 246000 VND| 246000 VND| [link lazada.vn](https://www.lazada.vn/products/4-dof-acrylic-chua-lap-rap-diy-canh-tay-robot-diy-bo-cho-arduino-may-lam-ho-tro-hoc-tap-sg90-servo-i267650656-s391094259.html) |
+| 9 |Servo SG90 | 5 | 29000 VND| 145000 VND| [link icdayroi](https://icdayroi.com/servo-sg90) |
+| 10 |Ultrasonic Module US-100 3.3V | 1 | 59000 VND| 59000 VND| [link thegioiic](https://thegioiic.com/products/us-100-module-cam-bien-sieu-am) |
+| 11 |I2C servo controller PCA9685 | 1 | 49000 VND| 49000 VND| [link thegioiic](https://thegioiic.com/products/pca9685-dieu-khien-dong-co-servo-12bit-pwm-6-kenh) |
+| 12 |USB male connector Type A | 2 | 1800 VND| 3600 VND| [link thegioiic](https://thegioiic.com/products/cong-usb2-0-typea-4pin-dau-duc-han-day) |
+| 13 |Buzzer 3.3 Volt | 1 | 3000 VND| 3000 VND| [link thegioiic](https://thegioiic.com/products/module-coi-buzzer-3-3v-5v) |
+| 14 |Screw M3 8mm | 8 | 550 VND| 4400 VND| [link thegioiic](https://thegioiic.com/products/vit-pm-m3-x-8mm) |
+| 15 |HEX-M3 spacer 15mm | 4 | 1000 VND| 4000 VND| [link thegioiic](https://thegioiic.com/products/tru-dong-hex-m3-cai-cai-dai-15mm) |
+
 <table>
 <thead><tr><th>nr</th>
 <th>name</th>
