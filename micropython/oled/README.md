@@ -1,6 +1,16 @@
 # Text and graphics on 128x64 OLED i2c display
 
-We use pin D5 (GPIO14) as SDA and D6 (GPIO12) as SCL for the i2c bus. The driver library 1306.py should be installed on the device. To create an image there is a description at [the micropython forum](https://forum.micropython.org/viewtopic.php?t=2974). In short deshipu says:
+We use pin D5 (GPIO14) as SDA and D6 (GPIO12) as SCL for the i2c bus. The driver library 1306.py should be installed on the device. You can show any image 128x64 monochrome image. For example:
+
+<img src="splash2.png"> <img src="splash3.png">
+
+The code used is [splash3.py](splash3.py).
+
+## Convert images
+
+I use the online [tool from majer.ch](http://www.majer.ch/lcd/adf_bitmap.php) and convert the code from ', 0x87' to '\x87' in the bytearray. Follow this instructions:
+
+To create an image there is a description at [the micropython forum](https://forum.micropython.org/viewtopic.php?t=2974). In short deshipu says:
 
 The buffer in the previous exampe is created by scanning the original image pixel-by-pixel and setting the bits of the bytes depending on whether they are supposed to be on or off. The alignment of the bytes is as follows (example of a 16x16 image, the digits signify the bits of each byte):
 
@@ -44,5 +54,5 @@ for y in range(image.get_height() // 8):
 print(repr(buffer))
 ```
 
-After that _kamikaze_ added: `or you could use ImageMagick`s convert and store it in file to save RAM`
+After that _kamikaze_ added: `or you could use ImageMagick's convert and store it in file to save RAM`
 
