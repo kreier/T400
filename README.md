@@ -6,6 +6,7 @@
 
 Robot car with WiFi, programmed and controlled by MicroPython. The OLED screen gives information about status, connection and WiFi network to connect to (AP mode).
 
+![T400](pic/T400-robotarm.jpg)
 ![T400 lite](pic/T400lite.jpg)
 
 ## Project
