@@ -49,6 +49,10 @@ The materials used for this project were ordered at [IC ĐÂY RỒI](https://icd
 | 15 |HEX-M3 spacer 15mm | 4 | 1000 VND| 4000 VND| [link thegioiic](https://thegioiic.com/products/tru-dong-hex-m3-cai-cai-dai-15mm) |
 |  | |  |  VND| 1467000 VND|  |
 
+## Pin layout
+
+![Pin esp8266](pic/esp8266_pins.jpg)
+
 ## Code
 
 This is an example of the MicroPython code we are going to use:
@@ -58,7 +62,10 @@ from machine import Pin, I2C
 import ssd1306
 
 # ESP32 Pin assignment 
-i2c = I2C(1, scl=Pin(22), sda=Pin(21))
+# i2c = I2C(1, scl=Pin(22), sda=Pin(21))
+
+# ESP8266 Pin assignment
+i2c = I2C(scl=Pin(12), sda=Pin(14))
 
 oled_width = 128
 oled_height = 64
