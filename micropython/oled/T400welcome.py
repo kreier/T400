@@ -2,7 +2,10 @@ from machine import Pin, I2C
 import ssd1306
 
 # ESP32 Pin assignment 
-i2c = I2C(1, scl=Pin(22), sda=Pin(21))
+#i2c = I2C(1, scl=Pin(22), sda=Pin(21))
+
+# ESP8266 Pin
+i2c = I2C(-1, scl=Pin(12), sda=Pin(14)) # negative 1 for software i2c
 
 oled_width = 128
 oled_height = 64
@@ -27,3 +30,4 @@ oled.text('a ESP8266.', 4, 42)
 oled.text('Used at AISVN.', 4, 52)
   
 oled.show()
+

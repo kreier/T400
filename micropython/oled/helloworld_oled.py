@@ -5,10 +5,10 @@ import ssd1306
 from time import sleep
 
 # ESP32 Pin assignment 
-i2c = I2C(1, scl=Pin(22), sda=Pin(21))
+#i2c = I2C(1, scl=Pin(22), sda=Pin(21))
 
 # ESP8266 Pin assignment
-#i2c = I2C(-1, scl=Pin(5), sda=Pin(4))
+i2c = I2C(-1, scl=Pin(12), sda=Pin(14))
 
 oled_width = 128
 oled_height = 64
@@ -19,3 +19,4 @@ oled.text('Hello, World 2!', 0, 10)
 oled.text('Hello, World 3!', 0, 20)
         
 oled.show()
+
