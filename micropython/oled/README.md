@@ -6,6 +6,12 @@ We use pin D5 (GPIO14) as SDA and D6 (GPIO12) as SCL for the i2c bus. The driver
 
 The code used is [splash3.py](splash3.py).
 
+## Size 0.96 inch or 1.3 inch
+
+For comparison I ordered the slightly larger display with 1.3 inch as well. It needs the different sh1106 driver, but has the same functions as the ssd1306. Text is easier to read. Here an image:
+
+![small vs big](oled_ssd1306.jpg)
+
 ## Convert images
 
 I use the online [tool from majer.ch](http://www.majer.ch/lcd/adf_bitmap.php) and convert the code from ', 0x87' to '\x87' in the bytearray. Follow this instructions:
