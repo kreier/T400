@@ -1,0 +1,5 @@
+# gcode for 3D printerCompiled class file
+*.gcode
+
+# Synology Diskstation
+.DS_store
