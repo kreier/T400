@@ -27,3 +27,19 @@ At Aliexpress you can order the metal materials for a 6 DOF robot arm for $25. E
 Inspired by the relative stability of the digital servo driven robot arm and the design of the KUKA KR 3 AGILUS.
 
 ![KUKA R3](inspiration.jpg)
+
+## Stepper motors
+
+One design with stepper motors is the [WE-R2.4 robot](https://www.thingiverse.com/thing:3327968) that was published in January 2019 by [LoboCNC](https://www.thingiverse.com/LoboCNC/about). Another user [John Lauer](https://github.com/chilipeppr) from [Chilipeppr](http://chilipeppr.com/arm) tried to build this arm and published a [first video](https://www.youtube.com/watch?v=tEbJV32GyYU) in February 2019. [Part 2](https://www.youtube.com/watch?v=RdmdFIhCo4M) from March 2019 had the controller software and hardware based on the ESP32 finishd. But there are several problems:
+
+- Heat
+- Homing
+- Backlash
+- Wiring
+- Jogging
+- Training
+
+By September 2019 these where addressed and resolved or improved. See [Part 3 video](https://www.youtube.com/watch?v=4o3d7_WZ_DQ). Couldn't find a number for the produced torque or maximum rpm, though.
+
+![cooling](inside.png)
+![disassembled](disassembled.png)
