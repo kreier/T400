@@ -41,5 +41,5 @@ One design with stepper motors is the [WE-R2.4 robot](https://www.thingiverse.co
 
 By September 2019 these where addressed and resolved or improved. See [Part 3 video](https://www.youtube.com/watch?v=4o3d7_WZ_DQ). Couldn't find a number for the produced torque or maximum rpm, though.
 
-![cooling](inside.png)
-![disassembled](disassembled.png)
+![cooling](inside.jpg)
+![disassembled](disassembled.jpg)
