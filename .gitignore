@@ -2,4 +2,4 @@
 *.gcode
 
 # Synology Diskstation
-#.DS_Store
+.DS_Store
