@@ -20,14 +20,25 @@
 
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
+#include <Arduino.h>
+#include <Wire.h>
+#include <U8g2lib.h>
 
-const char *ssid = "WIFI_CAR_ESP9266";
-const char *password = "wificarpassword";
+const char *ssid = "T401";
+const char *password = "12345678";
 
 IPAddress ip(192, 168, 4, 1);
 IPAddress netmask(255, 255, 255, 0);
 const int port = 8080; // Port
 ESP8266WebServer server(port);
+
+U8G2_SH1106_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ 12, /* data=*/ 14);
+//U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ 12, /* data=*/ 14, /* reset=*/ U8X8_PIN_NONE);
+String inputstring = "";
+unsigned char* terminal[150]; // 8 lines with 25 characters
+int input = 0;
+int line = 0;
+String direction_old;
 
 static const uint8_t pwm_A = 5 ;
 static const uint8_t pwm_B = 4;
@@ -38,9 +49,24 @@ static const uint8_t dir_B = 2;
 int motor_speed = 1024;
 
 void setup() {
+  u8g2.begin();
+  u8g2.firstPage();
+  do {
+    u8g2.setFont(u8g2_font_5x7_tf);
+    u8g2.drawStr(0, 8,"T400 robot at AISVN ASA 3");
+    u8g2.drawStr(0,16,"Creating WiFi network ...");
+  } while (u8g2.nextPage() );
   WiFi.mode(WIFI_AP);
   WiFi.softAPConfig(ip, ip, netmask);
   WiFi.softAP(ssid, password);
+  u8g2.firstPage();
+  do {
+    u8g2.setFont(u8g2_font_5x7_tf);
+    u8g2.drawStr(0, 8,"T400 robot at AISVN ASA 3");
+    u8g2.drawStr(0,16,"Creating WiFi network ...");
+    u8g2.drawStr(0,24,"Please join: 'T401'");
+    u8g2.drawStr(0,32,"Password: 12345678");
+  } while (u8g2.nextPage() );
 
   pinMode(pwm_A, OUTPUT); // PMW A
   pinMode(pwm_B, OUTPUT); // PMW B
@@ -63,6 +89,10 @@ void handleMoveRequest() {
     return;
   }
   String direction = server.arg("dir");
+  //if( direction != direction_old) {
+  //  direction_old = direction;
+  //  inputline(direction);
+  //}
   if (direction.equals("F")) {
     forward();
     server.send(200, "text / plain", "Move: forward");
@@ -97,7 +127,7 @@ void handleActionRequest() {
   String type = server.arg("type");
   if (type.equals("1")) {
     // TODO : Action 1
-    server.send(200, "text / plain", "Action 1");
+    server.send(200, "text / plain", "Action 1"); // robot arm servo over i2c comes here ...
   }
   else if (type.equals("2")) {
     // TODO : Action 2
@@ -168,4 +198,27 @@ void turn_right() {
   analogWrite(pwm_B, motor_speed);
   digitalWrite(dir_A, LOW);
   digitalWrite(dir_B, LOW);
+}
+
+void inputline(const char* inputstring) {
+  u8g2.firstPage();
+  input++;
+  if( line * 25 + 25 > input) {         // we need a new line
+    if( input > 150 ) {                 // end of screen
+      memcpy(terminal, terminal + 25, 125);
+    }
+    for(int i = 125; i < 150; i++) {
+      *terminal[i] = '\n';
+    }
+    //strncpy(*terminal, inputstring, 150);
+  } else {
+    //*terminal[line] = (unsigned char*)inputstring;
+  }
+  do {
+    u8g2.setFont(u8g2_font_5x7_tf);
+    for(int i = 0; i < 8; i++) {
+      const char* whatever = (const char *)*terminal[34];
+      u8g2.drawStr(0, 8+8*i, whatever);
+    }
+  } while (u8g2.nextPage() );
 }
