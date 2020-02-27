@@ -10,7 +10,7 @@ The files are located in this folder and sourced from [here](https://www.thingiv
 
 The files for the PCB are not provided, so they have to be recreated. This file should serve as inspiration, the rations are all given in the dxf file or can be measured there:
 
-![PCB closeup](v3.0/pcb_inspiration.jpg)
+![PCB closeup](pcb/pcb_inspiration2.jpg)
 
 ## Additional materials
 
