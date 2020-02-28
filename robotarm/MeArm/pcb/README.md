@@ -4,11 +4,15 @@ The MeArm 3.0 uses a custom PCB to connect the 4 servos to a single flat cable w
 
 From the assemble video you can guess the shape:
 
-![PCB closeup](../pcb/pcb_inspiration2.jpg)
+![PCB closeup](pcb_inspiration2.jpg)
 
 Since the shematics is not provided, it has to be recreated in EAGLE. Here my attempts: 
 
-![MeArm v3.0](../pic/mearm3.jpg)
+![PCB v3](pcb_v3.jpg)
+
+![PCB v5](pcb_v5.jpg)
+
+![MeArm v3.0](../../pic/mearm3.jpg)
 
 The files are located in this folder and sourced from [here](https://www.thingiverse.com/thing:3420797/files) and [here](https://github.com/mimeindustries/MeArm). The modification is the removal of the text for the lasercutting and shortend of some corners to fit on the base of the robot.
 
