@@ -1,0 +1,5 @@
+Partlist exported from C:/Users/matth/OneDrive/Documents/EAGLE/projects/MeArm3.0/MeArm-v3.sch at 2/28/2020 2:10 PM
+
+Qty Value                   Device                  Package                     Parts                          Description            POPULARITY
+4                           PINHD-1X3               1X03                        SERVO1, SERVO2, SERVO3, SERVO4 PIN HEADER             92        
+1   JST-XH-06-PIN-ROUND-PAD JST-XH-06-PIN-ROUND-PAD JST-XH-06-PACKAGE-ROUND-PAD MEARM                          JST XH Connector 2 Pin           

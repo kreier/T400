@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-28T07:10:13Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "MeArm-v3"
+        },
+        "Owner": "Matthias Kreier <matthias.kreier@ais.edu.vn>",
+        "Size": {
+            "X": 62,
+            "Y": 73
+        }
+    }
+}
