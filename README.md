@@ -91,3 +91,19 @@ oled.text('Used at AISVN.', 4, 52)
   
 oled.show()
 ```
+
+## I2C connector
+
+Following the inspiration of SparkFun with their [QWIIC](https://www.sparkfun.com/qwiic#products) connector I tried to replicate the pin order. But instead of SMD 1.0 mm connector I just use the regular 2.54mm raster with XH connector on the board and respective 4 pin connector wire.
+
+![QWIIC system](pic/qwiic.png)
+
+Following the same order the pins are assigned:
+1. black - GND
+2. red - 3.3 V
+3. blue - SDA
+4. yellow - SCL
+
+![XH 2.54 connector](pic/xh254.jpg)
+
+The order does not match several OLED displays, but the ZS-042 rtc clock, the 1602 display adapter and ...
