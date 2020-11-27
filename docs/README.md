@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/kreier/T400.svg?branch=master)](https://travis-ci.com/kreier/T400)
 [![MIT license](https://img.shields.io/github/license/kreier/T400?color=brightgreen)](http://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/kreier/T400.svg?color=brightgreen)](https://GitHub.com/kreier/T400/releases/)
 [![HitCount](http://hits.dwyl.io/kreier/T400.svg)](http://hits.dwyl.io/kreier/T400)
 
 Robot car with WiFi, programmed and controlled by MicroPython. The OLED screen gives information about status, connection and WiFi network to connect to (AP mode).
@@ -94,6 +95,8 @@ oled.show()
 
 ## I2C connector
 
+`2020/09/09`
+
 Following the inspiration of SparkFun with their [QWIIC](https://www.sparkfun.com/qwiic#products) connector I tried to replicate the pin order. But instead of SMD 1.0 mm connector I just use the regular 2.54mm raster with XH connector on the board and respective 4 pin connector wire.
 
 ![QWIIC system](qwiic.png)
@@ -106,4 +109,10 @@ Following the same order the pins are assigned:
 
 ![XH 2.54 connector](xh254.jpg)
 
-The order does not match several OLED displays, but the ZS-042 rtc clock, the 1602 display adapter and ...
+The order does not match several OLED displays, but the ZS-042 rtc clock, the 1602 display adapter and many more.
+
+`2020/11/27`
+
+With the new [T-Display](https://kreier.github.io/t-display/) project I included the I2C connector as well. The pins look like this:
+
+![I2C on T-Display](x254-i2c.jpg)
