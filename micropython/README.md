@@ -12,11 +12,15 @@ Now you can connect to your esp8266 using [uPyCraft](http://docs.dfrobot.com/upy
 
 ## Using the OLED display
 
-The OLED display is connected via I2C and the pins are remaped to GPIO 14 (SDA) and GPIO 12 (SCL) because the standard pins are used by the motorshield.
+The OLED display is connected via I2C and the pins are remaped to GPIO 14 (SDA) and GPIO 12 (SCL) because the standard pins are used by the motorshield. In 0.96" and 1.3" it looks like this:
 
-
+![small vs big](oled/oled_ssd1306.jpg)
 
 ## Logfile
+
+`2020/11/27`
+
+Too many external components. The T-Display has a TFT display included, with color and higher resolution and with ESP32 and battery controller ...
 
 `2019/12/05`
 

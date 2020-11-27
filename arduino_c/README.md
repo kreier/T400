@@ -36,7 +36,7 @@ void loop(){
   }
 }
 ```
-![motorshield](../pic/motorshield.jpg)
+![motorshield](../docs/motorshield.jpg)
 
 ## Remote controlled robot
 
@@ -61,6 +61,6 @@ Simple https://www.hackster.io/alankrantas/simple-nodemcu-wifi-controlled-car-es
 
 For slightly more money one can get an OLED display for the I2C bus, which has a better resolution than the 1602 display, supports graphics and is smaller in size - perfect for a small robot. To deceide if I should go for 0.96" or 1.3" I ordered both and compared the output of both displays, since both have the same resolution:
 
-![SH1106 and SSD1306](../pic/lorem_oled.jpg)
+![SH1106 and SSD1306](../docs/lorem_oled.jpg)
 
 Clearly the larger SH1106 display is to prefer compared to the smaller SSD1306 variant in two colors.

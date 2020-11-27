@@ -4,7 +4,7 @@
 
 The T400 should be equipped with a robot arm. Due to financial constrains we are going to use a $11 (246,000 VND) lasercut acryl 4 DOF arm with SG50 servos. The final robot should look like this:
 
-![T400 with robot arm](../pic/T400-robotarm.jpg)
+![T400 with robot arm](../docs/T400-robotarm.jpg)
 
 ## 3D printed robot arm - EEZYbotARM MK1 and MK2
 
