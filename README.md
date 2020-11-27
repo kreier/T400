@@ -6,14 +6,14 @@
 
 Robot car with WiFi, programmed and controlled by MicroPython. The OLED screen gives information about status, connection and WiFi network to connect to (AP mode).
 
-![T400](pic/T400-robotarm.jpg)
-![T400 lite](pic/T400lite.jpg)
+![T400](docs/T400-robotarm.jpg)
+![T400 lite](docs/T400lite.jpg)
 
 ## Project
 
 This car was build during ASA session III in 2019/2020 at the AISVN. In 11 weeks from February 24th to May 22nd we successfully created 8 robot cars. Here are some pictures of the finished products:
 
-<img src="pic/t400.jpg" width="48%"><img src="pic/t400plus.jpg" width="48%">
+<img src="docs/t400.jpg" width="48%"><img src="docs/t400plus.jpg" width="48%">
 
 ### Key features
 
@@ -51,7 +51,7 @@ The materials used for this project were ordered at [IC ĐÂY RỒI](https://icd
 
 ## Pin layout
 
-![Pin esp8266](pic/esp8266_pins.jpg)
+![Pin esp8266](docs/esp8266_pins.jpg)
 
 ## Code
 
@@ -96,7 +96,7 @@ oled.show()
 
 Following the inspiration of SparkFun with their [QWIIC](https://www.sparkfun.com/qwiic#products) connector I tried to replicate the pin order. But instead of SMD 1.0 mm connector I just use the regular 2.54mm raster with XH connector on the board and respective 4 pin connector wire.
 
-![QWIIC system](pic/qwiic.png)
+![QWIIC system](docs/qwiic.png)
 
 Following the same order the pins are assigned:
 1. black - GND
@@ -104,6 +104,6 @@ Following the same order the pins are assigned:
 3. blue - SDA
 4. yellow - SCL
 
-![XH 2.54 connector](pic/xh254.jpg)
+![XH 2.54 connector](docs/xh254.jpg)
 
 The order does not match several OLED displays, but the ZS-042 rtc clock, the 1602 display adapter and ...
