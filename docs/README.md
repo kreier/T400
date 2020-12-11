@@ -95,7 +95,7 @@ oled.show()
 
 ## I2C connector
 
-`2020/09/09`
+`2020/07/09`
 
 Following the inspiration of SparkFun with their [QWIIC](https://www.sparkfun.com/qwiic#products) connector I tried to replicate the pin order. But instead of SMD 1.0 mm connector I just use the regular 2.54mm raster with XH connector on the board and respective 4 pin connector wire.
 
@@ -116,3 +116,6 @@ The order does not match several OLED displays, but the ZS-042 rtc clock, the 16
 With the new [T-Display](https://kreier.github.io/t-display/) project I included the I2C connector as well. The pins look like this:
 
 ![I2C on T-Display](x254-i2c.jpg)
+
+At the ESP32 SCL (SCK) is on GPIO 22 and SDA (SDI) is on GPIO 21. 
+
